@@ -6,6 +6,7 @@ spring:
         service-id: config-server
       name: item-service
       profile: dev
+    inetutils:      preferred-networks:      - 172.233
       
 eureka:
   client:
